@@ -1,0 +1,101 @@
+Notes on Variables in Python
+
+What are Variables in Python?
+
+A **variable** is a name given to a memory location in which data can be stored. It acts as a container for storing data values. In Python, you don't need to declare the type of the variable explicitly; Python automatically assigns a type based on the value assigned to the variable.
+
+Rules for Naming Variables
+
+1. **Variable names must start with a letter (a-z, A-Z) or an underscore (_).**
+   - Example: `age`, `_score`
+2. **The rest of the variable name can consist of letters, numbers (0-9), and underscores (_).**
+   - Example: `student_name`, `x1`
+3. **Variable names are case-sensitive.**
+   - Example: `Age` and `age` are two different variables.
+4. **Variable names cannot be Python reserved keywords (e.g., `if`, `else`, `while`, `True`, etc.).**
+   - Example: `if = 10` is not allowed.
+5. **Variable names should not contain spaces.**
+   - Use underscores (`_`) instead of spaces.
+   - Example: `first_name` (not `first name`).
+
+How to Assign Values to Variables
+
+In Python, assignment is done using the `=` operator. You assign a value to a variable by placing the variable name on the left and the value on the right.
+
+```python
+# Assigning a value to a variable
+age = 25
+name = "Alice"
+is_student = True
+```
+
+Types of Variables (Data Types)
+
+Variables in Python can store various types of data. Some common data types include:
+1. **Integer** (`int`): Whole numbers.
+   - Example: `x = 10`
+2. **Floating-point** (`float`): Decimal numbers.
+   - Example: `pi = 3.14`
+3. **String** (`str`): Sequence of characters enclosed in quotes.
+   - Example: `name = "Alice"`
+4. **Boolean** (`bool`): `True` or `False`.
+   - Example: `is_active = True`
+5. **List** (`list`): Ordered, mutable collection of items.
+   - Example: `numbers = [1, 2, 3, 4]`
+6. **Dictionary** (`dict`): Unordered collection of key-value pairs.
+   - Example: `person = {"name": "Alice", "age": 25}`
+
+Dynamic Typing in Python
+
+In Python, variables are dynamically typed, meaning the type of a variable is determined at runtime based on the assigned value. You can change the value of a variable, and Python will automatically adjust the type as needed.
+
+```python
+x = 10        # x is an integer
+x = "Hello"   # Now x is a string
+```
+
+Reassigning Variables
+You can reassign a variable by simply assigning a new value to it. The old value is overwritten.
+
+```python
+ Reassigning a variable
+num = 5      # num is now an integer
+num = 3.14   # num is now a float
+```
+
+Examples of Variables in Python
+
+1. Basic Example
+   ```python
+   # Assigning different types of data to variables
+   age = 30               # Integer
+   name = "Bob"           # String
+   height = 5.9           # Float
+   is_employed = True     # Boolean
+
+   print(age, name, height, is_employed)
+   ```
+
+2. List Example
+   ```python
+   fruits = ["apple", "banana", "cherry"]  # List
+   fruits.append("orange")  # Add a new item to the list
+   print(fruits)
+   ```
+
+3. Dictionary Example
+   ```python
+   person = {
+       "name": "John",
+       "age": 28,
+       "city": "New York"
+   }
+   print(person["name"])  # Accessing a value from the dictionary
+   ```
+
+4. Multiple Assignment
+   You can assign values to multiple variables in a single line.
+   ```python
+   x, y, z = 10, 20, 30
+   print(x, y, z)
+   ```
