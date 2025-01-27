@@ -1,0 +1,23 @@
+Got it! Here's a quick rundown of just the four basic data types you're asking about:
+
+1. int (Integer)
+- Represents whole numbers (both positive and negative).
+- Example: `x = 10`  
+- Operations: addition, subtraction, multiplication, etc.
+- Can represent both small and large numbers.
+  
+ 2. float (Floating Point)
+- Represents numbers with a decimal point.
+- Example: `y = 3.14`  
+- Used for precise calculations like scientific calculations, measurements, etc.
+  
+ 3. char(Character)
+- Python doesn't have a specific "char" data type like other languages (e.g., C or Java).
+- In Python, a single character is just a string with a length of 1.
+  - Example: `char = 'A'`  
+  - You can use string methods for characters as well.
+  
+4. bool (Boolean)
+- Represents one of two values: `True` or `False`.
+- Example: `is_active = True`  
+- Used for conditional checks (e.g., in `if` statements, loops, etc.)
