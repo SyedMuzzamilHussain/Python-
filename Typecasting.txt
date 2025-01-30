@@ -1,0 +1,98 @@
+Type Casting in Python
+
+Type casting is the conversion of one data type to another. In Python, this can be done using built-in functions like `int()`, `float()`, and `str()`.
+
+1. Converting to Integer (`int()`)
+
+The `int()` function is used to convert a value into an integer.
+
+Example
+
+```python
+Convert float to int
+x = 5.6
+x_int = int(x)
+print(x_int)  # Output: 5
+
+ Convert string to int
+y = "123"
+y_int = int(y)
+print(y_int)   Output: 123
+
+Convert boolean to int
+z = True
+z_int = int(z)
+print(z_int)  # Output: 1
+```
+
+Explanation:
+- `int()` removes any decimal part when converting from a float.
+- It can convert numeric strings into integers.
+- `True` is converted to `1` and `False` to `0` when using `int()`.
+
+2. Converting to Float (`float()`)
+
+The `float()` function is used to convert a value to a floating-point number.
+
+Example
+
+```python
+# Convert int to float
+x = 10
+x_float = float(x)
+print(x_float)  # Output: 10.0
+
+# Convert string to float
+y = "12.34"
+y_float = float(y)
+print(y_float)  # Output: 12.34
+
+# Convert boolean to float
+z = False
+z_float = float(z)
+print(z_float)  # Output: 0.0
+```
+
+Explanation
+- `float()` adds `.0` to integers when converting.
+- It can convert strings representing floating-point numbers into float values.
+- `True` becomes `1.0` and `False` becomes `0.0`.
+
+---
+
+### **3. Converting to String (`str()`)**
+
+The `str()` function is used to convert a value into a string.
+
+Example
+
+```python
+Convert int to string
+x = 10
+x_str = str(x)
+print(x_str)  # Output: "10"
+
+Convert float to string
+y = 3.14
+y_str = str(y)
+print(y_str)  # Output: "3.14"
+
+Convert boolean to string
+z = True
+z_str = str(z)
+print(z_str)  # Output: "True"
+```
+
+Explanation
+- `str()` converts any data type to a string.
+- It can be used for integers, floats, and even boolean values.
+
+Summary of Functions:
+
+int(): Converts to integer.
+float(): Converts to floating-point number.
+str(): Converts to string.
+
+---
+
+Let me know if you need more examples or explanations!
